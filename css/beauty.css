@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #453e6e;
+    color: #cec7ff; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+header, nav {
+    width: 100%;
+    border: 1px solid #cec7ff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 25%;
+    border: 1px solid #cec7ff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+main {
+    flex: 1;
+    border: 1px solid #cec7ff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    border: 1px solid #cec7ff;
+    padding: 10px;
+    box-sizing: border-box;
+}
